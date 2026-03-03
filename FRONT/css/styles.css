@@ -1,0 +1,41 @@
+/* Estilos personalizados para complementar Bootstrap */
+
+body {
+    background-color: #f4f7f6; /* Un tono gris claro para descanso visual */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 12px; /* Bordes redondeados para un look moderno */
+}
+
+.card-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#resultado {
+    transition: all 0.5s ease-in-out; /* Animación suave al mostrar resultados */
+}
+
+.alert-info {
+    border-left: 5px solid #0dcaf0; /* Resalta el área de resultados */
+}
+
+/* Estilo para los elementos viables resaltados */
+.elemento-badge {
+    display: inline-block;
+    padding: 0.25em 0.6em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.375rem;
+    background-color: #0d6efd;
+    color: #fff;
+    margin-right: 5px;
+}

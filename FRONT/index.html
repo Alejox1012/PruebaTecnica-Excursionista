@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba Técnica - Didian Valencia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .card-header { background-color: #007bff; color: white; }
+        .list-all { background-color: #e9ecef; border-radius: 5px; padding: 15px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card shadow">
+            <div class="card-header text-center"><h5>Optimización para Excursionistas</h5></div>
+            <div class="card-body">
+                
+                <!-- Sección: Todos los elementos disponibles -->
+                <div class="list-all">
+                    <h6><strong>Elementos Disponibles:</strong></h6>
+                    <ul class="mb-0">
+                        <li>E1: Peso 5, Calorías 3</li>
+                        <li>E2: Peso 3, Calorías 5</li>
+                        <li>E3: Peso 5, Calorías 2</li>
+                        <li>E4: Peso 1, Calorías 8</li>
+                        <li>E5: Peso 2, Calorías 3</li>
+                    </ul>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <label>Calorías Mínimas:</label>
+                        <input type="number" id="minCal" class="form-control" value="15">
+                    </div>
+                    <div class="col-6">
+                        <label>Peso Máximo:</label>
+                        <input type="number" id="maxPeso" class="form-control" value="10">
+                    </div>
+                </div>
+
+                <button onclick="calcularOptimización()" class="btn btn-success w-100 mb-4">Calcular Selección Óptima</button>
+
+                <!-- Sección: Resultado de los elegidos -->
+                <div id="resultado" class="d-none alert alert-primary">
+                    <h6><strong>Resultado de Optimización (Elegidos):</strong></h6>
+                    <hr>
+                    <div id="detalleResultado"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
