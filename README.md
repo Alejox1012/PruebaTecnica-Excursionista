@@ -27,12 +27,11 @@ La aplicación utiliza un modelo interoperable donde el Frontend y el Backend es
 📈 Escalabilidad y Futuro
 Actualmente, el sistema utiliza un algoritmo de fuerza bruta (Power Set), el cual es eficiente para la lista actual de 5 elementos. Para escalar a miles de elementos en el futuro, se proponen las siguientes mejoras:
 
-result :
-<img width="1913" height="981" alt="image" src="https://github.com/user-attachments/assets/38e3faff-5c5b-49b6-a3b2-eaab474ca06c" />
-
-
     Programación Dinámica: Implementar el algoritmo de la "Mochila" (Knapsack Problem) para reducir la complejidad computacional.
     Persistencia de Datos: Migrar los elementos de una lista estática a una base de datos SQL/NoSQL.
     Paginación y Filtros: Permitir la gestión de grandes volúmenes de elementos desde la interfaz de usuario.
 
 ---
+
+Resultado ( ejemplo propuesto ) :
+<img width="1913" height="981" alt="image" src="https://github.com/user-attachments/assets/38e3faff-5c5b-49b6-a3b2-eaab474ca06c" />
